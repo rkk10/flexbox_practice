@@ -1,0 +1,35 @@
+/* line 1, C:/Users/Ravindra/Documents/GitHub/flexbox_practice/style.sass */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* line 5, C:/Users/Ravindra/Documents/GitHub/flexbox_practice/style.sass */
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+/* line 12, C:/Users/Ravindra/Documents/GitHub/flexbox_practice/style.sass */
+
+section .box {
+    padding: 50px;
+    margin: 5px;
+    background-color: #FF7272;
+}
